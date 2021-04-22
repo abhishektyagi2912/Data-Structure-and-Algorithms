@@ -1,7 +1,4 @@
-# compute sum of digits
-# number
 
-# get sum of digits
 t=int(input())
 for i in range(t):
    n=int(input())
