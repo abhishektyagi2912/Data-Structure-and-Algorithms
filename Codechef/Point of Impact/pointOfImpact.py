@@ -40,7 +40,6 @@ for _ in range(t):
                 twox, twoy = oney, onex
                 thirdx, thirdy = fourthy, 0
 
-        # Pattern repeats every four times
         if (k%4 == 1):
             print(onex, oney)
         elif (k%4 == 2):
@@ -49,6 +48,4 @@ for _ in range(t):
             print(thirdx, thirdy)
         else:
             print(fourthx, fourthy)
-
-# There is a big pattern behind this problem
-# Solved using just mathematics 
+ 
