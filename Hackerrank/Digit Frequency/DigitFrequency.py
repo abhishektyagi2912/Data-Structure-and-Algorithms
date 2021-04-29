@@ -1,15 +1,14 @@
-# A program in python to find out the number of different digits used in it.
 
 
-string = input("Enter string: ")                   # Getting user input
+string = input("Enter string: ")                  
 
-ocurance = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]          # Creating an array to count number of all 10 digits (0 to 9)
+ocurance = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]          
 
-for c in string:                                   # Iterating through every element of string and updating the array
+for c in string:                                   
     o = ord(c)
     if o > 47 and o < 58:
         ocurance[o-48] += 1
 
-for i in ocurance:                                 # Printing the array (list) containing number of occurances
+for i in ocurance:                                 
     print(i, end=" ")
-print()                                            # Printing a new line in the end
+print()                                         
