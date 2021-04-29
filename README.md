@@ -11,5 +11,5 @@ This repository covers various practice problems of Arrays, Stacks, Queues, Tree
 * Python
 
  
-### Give it a 🌟 if you like this project.
+
 
