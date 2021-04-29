@@ -15,6 +15,5 @@ Don't forget to follow [Contribution Guidelines](.github/contributing.md) 🚀
 * Python
 
  
-### Give it a 🌟 if you ❤ this project.
+### Give it a 🌟 if you like this project.
 
-### This Project is a part of the following Open Source Program
