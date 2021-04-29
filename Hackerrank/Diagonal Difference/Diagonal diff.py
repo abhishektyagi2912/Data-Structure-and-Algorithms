@@ -1,4 +1,3 @@
-#!/bin/python3
 
 import math
 import os
@@ -6,11 +5,10 @@ import random
 import re
 import sys
 
-#Required function
 def diagonalDifference(arr):
-    d1 = sum([arr[x][x] for x in range(len(arr))]) #Calculate the sum of diagonal 1
-    d2 = sum([arr[x][n - 1 - x] for x in range(len(arr))]) #Calculate the sum of diagonal 2
-    return(abs(d1 - d2)) #Returns the absolute difference of the sums calculated above
+    d1 = sum([arr[x][x] for x in range(len(arr))]) 
+    d2 = sum([arr[x][n - 1 - x] for x in range(len(arr))]) #
+    return(abs(d1 - d2)) 
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
