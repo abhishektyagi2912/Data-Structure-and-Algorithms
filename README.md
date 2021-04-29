@@ -6,7 +6,6 @@
 
 This repository covers various practice problems of Arrays, Stacks, Queues, Trees, Graphs and different other Algorithms. A collection of solutions for Data Structure and Algorithm problems across various platforms in different languages.  
 ## Contributing  
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 <br>
 This repository is contribution friendly. If you'd like to add or improve any algorithm, your contribution is welcomed!  
 Don't forget to follow [Contribution Guidelines](.github/contributing.md) 🚀  
