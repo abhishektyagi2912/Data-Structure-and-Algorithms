@@ -19,5 +19,3 @@ Don't forget to follow [Contribution Guidelines](.github/contributing.md) 🚀
 ### Give it a 🌟 if you ❤ this project.
 
 ### This Project is a part of the following Open Source Program
-
-[<img src ="https://github.com/Ayush7614/Data-Structure-and-Algorithms/blob/main/cwoc.png" alt ="Cross Winter of Code"></img>](https://crosswoc.ieeedtu.in/)
