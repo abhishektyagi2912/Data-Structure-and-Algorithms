@@ -1,5 +1,4 @@
-# Program to find the shortest path using Dijktra's algorithm
-#this is implemented using queue
+
 
 import sys
 import queue
@@ -18,7 +17,6 @@ class Vertex:
 
 
 class Graph:
-    #Adding all Edges
     def __init__(self, N):
         self.vertices = {}
         while (N > 0):
@@ -40,7 +38,6 @@ class Dijkstra:
         self.graph = graph
 
     def calculate(self, start):
-        #for not visited neighbours ,update their distance if they could be reached with a shorter distance
         solved = {start: 0}
         adjacents = queue.PriorityQueue()
         self.update_adjacents(start, solved, adjacents)
@@ -53,7 +50,6 @@ class Dijkstra:
         return solved
 
     def update_adjacents(self, parent, solved, adjacents):
-        #if the distance was updating then they need to be pushed in priority queue with minimum distance
         edges = self.graph.get_vertex(parent).get_edges()
         for value, distance in edges.items():
             adjacents.put((solved[parent] + distance, value))
@@ -74,7 +70,6 @@ def build_graph(N, M):   #Initializing Graph
 
 
 def print_distances(distances, N, S):
-    #Printing The Required Output
     for i in range(1, N + 1):
         if (i == S):
             continue
@@ -93,7 +88,7 @@ def execute_test_case():
 
 
 def main():
-    T = int(sys.stdin.readline())  #Taking Input
+    T = int(sys.stdin.readline()) 
     while (T > 0):
         execute_test_case()
         T -= 1
