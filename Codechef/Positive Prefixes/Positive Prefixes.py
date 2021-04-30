@@ -17,5 +17,4 @@ for _ in range(int(input())):
                 arr.append(-i)
             else:
                 arr.append(i)
-    
     print(*arr)
