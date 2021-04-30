@@ -1,12 +1,11 @@
-#TODO: To find maximum amount of gold collected
 MAX = 100
   
 def maxGold(gold, m, n): 
   
     matrix = [[0 for i in range(n)]                            
-                        for j in range(m)]                          #TODO: Creating a matrix
+                        for j in range(m)]                        
   
-    for col in range(n-1, -1, -1):                                  #TODO: Calculating amount
+    for col in range(n-1, -1, -1):                                 
         for row in range(m): 
   
             if (col == n-1): 
