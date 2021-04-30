@@ -1,11 +1,10 @@
 class Solution:
     def getOddOccurrence(self, arr, n):
-        res = 0   # Initialize result
+        res = 0  
       
-        # Traverse the array 
         for element in arr: 
           
-            res = res ^ element   # XOR with the result 
+            res = res ^ element   
   
         return res 
   
