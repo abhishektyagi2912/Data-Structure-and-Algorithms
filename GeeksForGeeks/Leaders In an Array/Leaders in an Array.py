@@ -1,4 +1,3 @@
-# Python function to print leaders in array 
 def printLeaders(l, size): 
     m=[]
     max_element = l[size-1]  
@@ -8,9 +7,8 @@ def printLeaders(l, size):
             m.append(l[i])
             max_element = l[i] 
             
-    for k in range(len(m)-1,-1,-1):  #get the elements according to their first occurence in the arr
+    for k in range(len(m)-1,-1,-1):  
         print(m[k],end=" ")
           
-# Driver function 
 arr = [16, 17, 4, 3, 5, 2] 
 printLeaders(arr, len(arr))
