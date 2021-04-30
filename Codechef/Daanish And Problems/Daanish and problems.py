@@ -1,10 +1,10 @@
-t=int(input()) #test casess
+t=int(input()) 
 while(t):
     
-    a=list(map(int,input().split())) #take list input
+    a=list(map(int,input().split())) 
     k=int(input())
     
-    for i in range(9,-1,-1): #iterate
+    for i in range(9,-1,-1): 
         
         a[i]=a[i]-k
         
@@ -13,7 +13,7 @@ while(t):
         if a[i]>0:
             break
     
-    print(i+1) #print output
+    print(i+1) 
     
     
-    t=t-1 #decrement test case value
+    t=t-1 
