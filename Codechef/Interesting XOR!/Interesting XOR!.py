@@ -6,4 +6,3 @@ for _ in range(int(input())):
     a = c ^ b   
     print(a*b)
     
-
