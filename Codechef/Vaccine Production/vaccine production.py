@@ -19,5 +19,4 @@ while total < x:
     ans += 1
     
 //printing result    
-
 print(ans)
