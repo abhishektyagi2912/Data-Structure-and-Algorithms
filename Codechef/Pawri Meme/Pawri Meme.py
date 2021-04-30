@@ -7,4 +7,3 @@ while i<=n :
     print(string.replace(substring,replacing_string)) 
     i=i+1
     
-
