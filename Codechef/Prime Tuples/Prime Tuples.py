@@ -19,6 +19,5 @@ for i in range(2,n+1):
 
 for _ in range(int(input())):
     n=int(input())
-    
     count=tuples[n]
     print(count)
