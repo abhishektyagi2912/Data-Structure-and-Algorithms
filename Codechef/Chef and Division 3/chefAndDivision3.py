@@ -6,5 +6,4 @@ for _ in range(t):
 
     total = sum(arr)
 
-
     print(min(total//k,d))
