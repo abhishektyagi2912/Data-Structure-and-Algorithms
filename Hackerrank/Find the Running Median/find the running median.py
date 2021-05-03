@@ -1,9 +1,9 @@
-import bisect #python supports bisect module
+import bisect 
 n=int(input())
 a=[]
 for i in range(n):
     p=int(input())
-    bisect.insort(a,p) #This bisect module uses a bisection algorithm to keep a list in sorted order as items are inserted
+    bisect.insort(a,p) 
     if len(a)%2!=0:
         print(a[len(a)//2])
     else:
