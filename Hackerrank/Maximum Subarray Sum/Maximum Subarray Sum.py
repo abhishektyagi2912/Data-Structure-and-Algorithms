@@ -3,10 +3,6 @@
 # eg:
 #  -1%7=6
 #  -2%7=5
-#  and so on so we have to minimize the difference between them. 
- # 	The main problem in the question was to find just greater number than our prefixSum. For that we used bisect, 
-# 	bisect_right tell you if their is any greater element than our current element. 
-
 # formula used is:
 
 import bisect
