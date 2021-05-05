@@ -8,7 +8,6 @@
 # 	bisect_right tell you if their is any greater element than our current element. 
 
 # formula used is:
-# 	(prefixSumSoFar-JustGreaterPrefixSum+modulo)//modulo is added because we dont want negative result.
 
 import bisect
 t=int(input())
@@ -22,7 +21,6 @@ for _ in range(t):
 		prefixSum=(prefixSum+l[i])%m 
 		maxi=max(maxi,prefixSum) 
 		index=bisect.bisect_right(SortedPrefix,prefixSum) 
-		 # this is bianry look up so it take logN time
 		if index<len(SortedPrefix): 
 			maxi=max(maxi,(prefixSum-SortedPrefix[index]+m)%m)
 
