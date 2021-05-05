@@ -10,7 +10,6 @@ inputs = inputs.split()
 elNum = int(inputs[0])
 rotations = int(inputs[1])
 
-#we use map to split the input string and convert each split numeric character to integer simultaneously
 #we need to use list, to store each int as list input as without it map just returns a map object
 elements = list(map(int, input("Enter array elements: ").split()))
 
