@@ -1,7 +1,3 @@
-"""
-
-"""
-
 def maxSubsetSum(arr):
     
     n = len(arr) 
