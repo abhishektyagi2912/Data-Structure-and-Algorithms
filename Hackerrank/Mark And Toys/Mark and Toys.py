@@ -22,12 +22,7 @@ Input:
 Output:
 4
 
-Example 2:
-Input:
-4 7
-1 2 3 4
-Output:
-3
+
 
 """
 
