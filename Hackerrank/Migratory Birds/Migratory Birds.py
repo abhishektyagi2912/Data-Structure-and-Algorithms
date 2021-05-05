@@ -1,10 +1,8 @@
 from collections import Counter
 
 
-# Complete the migratoryBirds function below.
 def migratoryBirds(arr):
     m=[]
-    #count elements of list and store it as key value with their count as dictionary 
     c = dict(Counter(arr))
     for i in c.items():
         #when 2 or more values are common 
