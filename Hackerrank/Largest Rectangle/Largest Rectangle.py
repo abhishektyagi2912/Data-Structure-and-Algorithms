@@ -7,7 +7,6 @@ Your task is to find the largest solid area in which the mall can be constructed
 """
 
 
-# For each element(height) of an array,
 def largestRectangle(h):
     max_area = 0
     for i in range(len(h)):
@@ -28,7 +27,6 @@ def largestRectangle(h):
 
     print (max_area)
 
-#  main func
 n = int(input())
 h = [int(x) for x in input().split(" ")]
 largestRectangle(h)
