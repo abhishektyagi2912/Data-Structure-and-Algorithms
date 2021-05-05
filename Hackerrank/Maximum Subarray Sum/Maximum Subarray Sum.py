@@ -1,7 +1,3 @@
-
-#  -1%7=6
-#  -2%7=5
-
 import bisect
 t=int(input())
 for _ in range(t):
