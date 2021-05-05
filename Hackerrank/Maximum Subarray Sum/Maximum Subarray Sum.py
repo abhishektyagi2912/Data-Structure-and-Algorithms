@@ -19,13 +19,13 @@ for _ in range(t):
 	prefixSum=0
 	SortedPrefix=[]
 	for i in range(n):
-		prefixSum=(prefixSum+l[i])%m #storing prefix sum after modulo as (a%m+b%m)==(a+b)%m 
-		maxi=max(maxi,prefixSum) #our maximum sum after modulo
-		index=bisect.bisect_right(SortedPrefix,prefixSum) #check if there is any value greater then our current prefix value in list,
+		prefixSum=(prefixSum+l[i])%m 
+		maxi=max(maxi,prefixSum) 
+		index=bisect.bisect_right(SortedPrefix,prefixSum) 
 		 # this is bianry look up so it take logN time
-		if index<len(SortedPrefix): #if there is any number greater then current value then index has the index of first greater value or just greater value then our current prefixSum
+		if index<len(SortedPrefix): 
 			maxi=max(maxi,(prefixSum-SortedPrefix[index]+m)%m)
 
-		bisect.insort(SortedPrefix,prefixSum) #insert in the list in sorted order, this also takes O(logN) time
+		bisect.insort(SortedPrefix,prefixSum) 
 
 	print(maxi)
