@@ -14,8 +14,6 @@ for price in prices:
 print(toys)
 
 """
-Sample Input/Output:
-Example 1:
 
 
 
