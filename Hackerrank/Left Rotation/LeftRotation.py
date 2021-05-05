@@ -1,5 +1,3 @@
-#Working of rotateLeft: We append the first element to the list, and then remove it form the beginning
-# thus, left rotating the array
 def rotateLeft(d, elements):
     for i in range(d):
         elements.append(elements[0])
