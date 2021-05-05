@@ -1,6 +1,5 @@
 """
 A python program to implement Mark and Toys
-Note Each toy can be purchased only once.
 
 """
 
