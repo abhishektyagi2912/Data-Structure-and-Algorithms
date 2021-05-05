@@ -10,8 +10,6 @@ Your task is to find the largest solid area in which the mall can be constructed
 # For each element(height) of an array,
 # 3. Calculate the current rectangle area: 
 #    - height of the current building * current count
-# 4. Check if the current area is larger than the current maximum area
-# When the search finishes print the maximum area acquired.
 def largestRectangle(h):
     max_area = 0
     for i in range(len(h)):
