@@ -1,6 +1,3 @@
-
-
-
 def largestRectangle(h):
     max_area = 0
     for i in range(len(h)):
