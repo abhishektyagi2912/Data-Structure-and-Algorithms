@@ -1,7 +1,5 @@
-
 import operator
 
-# finding union
 class UnionFind:
 
     def __init__(self, N):
@@ -22,7 +20,7 @@ class UnionFind:
 
 
 def kruskal(S, N, E):
-    uf = UnionFind(N)                                # Calculating result
+    uf = UnionFind(N)                                
     T  = []
 
     for e in sorted(E, key = operator.itemgetter(0, 1)):
