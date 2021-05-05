@@ -11,10 +11,4 @@ for price in prices:
 
 print(toys)
 
-"""
-
-
-
-
-"""
 
