@@ -1,5 +1,4 @@
 """
-A python program to implement Mark and Toys
 
 """
 
