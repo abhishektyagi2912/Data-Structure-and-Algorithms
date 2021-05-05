@@ -10,7 +10,6 @@ inputs = inputs.split()
 elNum = int(inputs[0])
 rotations = int(inputs[1])
 
-#we need to use list, to store each int as list input as without it map just returns a map object
 elements = list(map(int, input("Enter array elements: ").split()))
 
 result = rotateLeft(rotations, elements)
