@@ -6,7 +6,6 @@ def maxSubsetSum(arr):
     dp[1] = max(arr[1], dp[0]) 
     
     for i in range(2,n):
-       # Because of the condition. No two adjacent elements can be picked. 
        # Therefore we can either take one and then skip one, or skip one and run the subroutine.
         dp[i] = max(arr[i], dp[i-1], arr[i] + dp[i-2])
     # in the dp, we store the max sum for the subarray up till the length of the subarray.
