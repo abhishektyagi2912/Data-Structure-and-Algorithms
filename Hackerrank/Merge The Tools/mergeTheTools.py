@@ -1,6 +1,4 @@
 def merge_the_tools(string, k):
-    # your code goes here
-    # will store string of size k
     merged_list = []
     number = len(string)//k
 
