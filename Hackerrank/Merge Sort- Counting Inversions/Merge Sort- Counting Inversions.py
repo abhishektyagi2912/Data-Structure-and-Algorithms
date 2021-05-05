@@ -58,9 +58,5 @@ STDIN       Function
 5           arr[] size n = 5 for the first dataset
 1 1 1 2 2   arr = [1, 1, 1, 2, 2]
 5           arr[] size n = 5 for the second dataset     
-2 1 3 1 2   arr = [2, 1, 3, 1, 2]
------------------------------------
-Sample Output
-0  
-4   
+ 
 '''
