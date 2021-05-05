@@ -7,5 +7,4 @@ def maxSubsetSum(arr):
     
     for i in range(2,n):
         dp[i] = max(arr[i], dp[i-1], arr[i] + dp[i-2])
-    #  Hence simply return the last item in this to get the answer
     return dp[-1]
