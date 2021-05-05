@@ -49,8 +49,4 @@ def countInversions(array):
 
     fptr.close()
     
-'''
-Sample Input
 
- 
-'''
