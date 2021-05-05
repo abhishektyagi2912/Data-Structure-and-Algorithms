@@ -4,9 +4,9 @@
 
 def maxSubsetSum(arr):
     
-    n = len(arr) # n = length of the array
-    dp = [0]*n   # create a dp array of length n & initialize its values to 0
-    dp[0] = arr[0] # base
+    n = len(arr) 
+    dp = [0]*n   
+    dp[0] = arr[0] 
     dp[1] = max(arr[1], dp[0]) 
     
     for i in range(2,n):
