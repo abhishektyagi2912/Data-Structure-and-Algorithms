@@ -1,7 +1,5 @@
 """
 
-Skyline Real Estate Developers is planning to demolish a number of old, unoccupied buildings and construct a shopping mall in their place. 4
-Your task is to find the largest solid area in which the mall can be constructed.
 
 
 """
