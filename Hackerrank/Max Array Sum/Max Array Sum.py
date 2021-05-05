@@ -1,5 +1,4 @@
 """
-Given an array of integers, find the subset of non-adjacent elements with the maximum sum. 
 
 """
 
