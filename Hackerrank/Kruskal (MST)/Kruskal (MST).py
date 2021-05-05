@@ -44,6 +44,5 @@ def main():
 
     print(sum(t[2] for t in kruskal(S, N, E)))
 
-# main function
 if __name__ == "__main__":
     main()
