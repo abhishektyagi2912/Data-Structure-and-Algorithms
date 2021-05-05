@@ -52,8 +52,5 @@ def countInversions(array):
 '''
 Sample Input
 
-STDIN       Function
------       --------
-2           d = 2  
  
 '''
