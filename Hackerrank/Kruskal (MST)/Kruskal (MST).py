@@ -28,12 +28,11 @@ def kruskal(S, N, E):
             uf.union(e[2], e[3])
             T.append((e[2], e[3], e[0]))
 
-    return T                                         # Returning result 
+    return T                                        
 
 
 def main():
-    N, M = [int(i) for i in input().split()]         # Taking input
-
+    N, M = [int(i) for i in input().split()]        
     E    = []
 
     for _ in range(M):
