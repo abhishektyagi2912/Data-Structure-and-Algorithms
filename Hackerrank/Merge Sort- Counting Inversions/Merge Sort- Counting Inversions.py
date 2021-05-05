@@ -54,9 +54,6 @@ Sample Input
 
 STDIN       Function
 -----       --------
-2           d = 2
-5           arr[] size n = 5 for the first dataset
-1 1 1 2 2   arr = [1, 1, 1, 2, 2]
-5           arr[] size n = 5 for the second dataset     
+2           d = 2  
  
 '''
