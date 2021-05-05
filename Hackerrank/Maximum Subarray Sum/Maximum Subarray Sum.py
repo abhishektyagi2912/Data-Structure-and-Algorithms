@@ -1,5 +1,4 @@
-# Main observation, The least difference between the numbers, the higer the value after modulo
-# eg:
+
 #  -1%7=6
 #  -2%7=5
 
