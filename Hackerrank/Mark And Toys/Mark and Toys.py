@@ -1,5 +1,3 @@
-
-
 n, k = map(int, input().split())
 prices = list(sorted(map(int, input().split())))
 toys = 0
