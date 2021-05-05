@@ -4,13 +4,11 @@ import random
 import re
 import sys
 
-# Complete the countInversions function below.
 def countInversions(array):
     cnt_inv = 0
 
     if len(array) <= 1:
         return array, 0
-    # break an array in two halfs
     ar_left, inv_left = countInversions(array[:int(len(array)/2)])   # first half of the array
     ar_right, inv_right = countInversions(array[int(len(array)/2):])  # second half of the array
 
