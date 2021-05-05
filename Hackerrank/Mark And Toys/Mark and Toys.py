@@ -16,11 +16,7 @@ print(toys)
 """
 Sample Input/Output:
 Example 1:
-Input:
-7 50
-1 12 5 111 200 1000 10
-Output:
-4
+
 
 
 
