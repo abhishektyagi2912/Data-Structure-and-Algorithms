@@ -1,16 +1,13 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the kangaroo function below.
 def kangaroo(x1, v1, x2, v2):
     if (v1 - v2)==0:
         return "NO"
-    e = (x2 - x1) / (v1 - v2)                        # Calculating number of jumps to meet, if that number is an integer, then meeting is possible
+    e = (x2 - x1) / (v1 - v2)                 
     if (x2>x1) and (v2>v1):                          # Returning NO if one kangaroo is ahead of another and its speed is also more than the previous kangaroo
         return "NO"
     if (x1>x2) and (v1>v2):
