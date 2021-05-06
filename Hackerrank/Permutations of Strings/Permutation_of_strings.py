@@ -1,12 +1,9 @@
 
 
-# duplicates allowed
 def toString(List):
     return ''.join(List)
   
-# Function to print permutations of string
 
-# 3. Ending index of the string.
 def permutation(a, l, r):
     if l == r:
         print(toString(a))
@@ -14,9 +11,8 @@ def permutation(a, l, r):
         for i in range(l, r + 1):
             a[l], a[i] = a[i], a[l]
             permutation(a, l + 1, r)
-            a[l], a[i] = a[i], a[l] # backtrack
+            a[l], a[i] = a[i], a[l] 
   
-# Driver program to test the above function
 string = input("Enter the string: ")
 n = len(string)
 arr = list(string)
