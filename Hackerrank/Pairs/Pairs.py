@@ -6,12 +6,9 @@ import random
 import re
 import sys
 
-# Complete the pairs function below.
 
 
-#solved using two pointer approach.
 def pairs(k, a):
-    # a is the list of numbers and k is the difference value
     a.sort()
     left = 0
     right = 1   
