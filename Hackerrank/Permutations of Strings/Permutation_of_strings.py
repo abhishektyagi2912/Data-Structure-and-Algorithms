@@ -1,6 +1,5 @@
 
 
-# Python program to print all permutations with
 # duplicates allowed
 def toString(List):
     return ''.join(List)
