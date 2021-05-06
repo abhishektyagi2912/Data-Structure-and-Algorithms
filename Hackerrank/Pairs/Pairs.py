@@ -1,5 +1,3 @@
-#!/bin/python
-
 import math
 import os
 import random
@@ -16,7 +14,7 @@ def pairs(k, a):
     while right < len(a):
         val = a[right]-a[left]
         if val == k:
-            answer += 1     #Incrementing count whenever we find the suitable element.
+            answer += 1   
             left += 1
             right += 1
         elif val < k:
