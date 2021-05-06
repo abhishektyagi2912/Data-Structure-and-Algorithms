@@ -5,9 +5,7 @@ def toString(List):
     return ''.join(List)
   
 # Function to print permutations of string
-# This function takes three parameters:
-# 1. String
-# 2. Starting index of the string
+
 # 3. Ending index of the string.
 def permutation(a, l, r):
     if l == r:
