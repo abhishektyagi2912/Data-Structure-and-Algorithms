@@ -8,13 +8,13 @@ def kangaroo(x1, v1, x2, v2):
     if (v1 - v2)==0:
         return "NO"
     e = (x2 - x1) / (v1 - v2)                 
-    if (x2>x1) and (v2>v1):                          # Returning NO if one kangaroo is ahead of another and its speed is also more than the previous kangaroo
+    if (x2>x1) and (v2>v1):                       
         return "NO"
     if (x1>x2) and (v1>v2):
         return "NO"
-    if e-int(e) == 0:                                # Returning YES if number of jumps is an integer
+    if e-int(e) == 0:                               
         return "YES"
-    return "NO"                                      # else returning NO
+    return "NO"                                      
         
 
 if __name__ == '__main__':
