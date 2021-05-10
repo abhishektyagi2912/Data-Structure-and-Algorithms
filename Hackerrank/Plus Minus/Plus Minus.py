@@ -3,7 +3,6 @@ import os
 import random
 import re
 import sys
-
 def plusMinus(arr):
     l=len(arr)
     cn=0  
