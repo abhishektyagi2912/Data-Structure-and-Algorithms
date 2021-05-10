@@ -2,7 +2,6 @@ def printShortestPath(n, i_start, j_start, i_end, j_end):
 
     
     visited = [[0 for _ in range(n)] for _ in range(n)]
-    # BFS
     queue = [[i_start, j_start, 0, []]]
     while queue:
         i_cur, j_cur, step, path = queue.pop(0)
@@ -26,7 +25,6 @@ def printShortestPath(n, i_start, j_start, i_end, j_end):
                 else:
                     possible = [[0, 2, 'R']]
 
-            # check if 
             if current[0] == i_end and current[1] == j_end:
                 print(step)
                 [print(each, end = ' ') for each in path]
