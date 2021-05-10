@@ -1,7 +1,5 @@
 def redJohn(n):
-    # n is the length of 4 X n wall
     result, combos = 0, 1
-    #  because of 4 X n wall
     for i in range(n // 4):
         combos += (math.factorial(n - 3 * (i+1)) / (math.factorial(n - 4 * (i+1)) * math.factorial(i+1)))
     for j in range(2, int(combos + 1)):
