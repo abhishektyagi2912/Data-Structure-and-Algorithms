@@ -27,13 +27,11 @@ for i in range(1 , n):
         print(temp , end = " ")
     print("")
 
-# To print the first half of the middle row
 temp = n
 for i in range(1 , n):
     print(temp , end = " ")
     temp -= 1
 
-# To print the middle element of the middle row
 print("1" , end = " ")
 
 # To print the last half of the middle row
