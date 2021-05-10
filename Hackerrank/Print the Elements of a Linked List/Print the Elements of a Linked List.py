@@ -36,8 +36,8 @@ class SinglyLinkedList:
 #
 def printLinkedList(head):
     if head:                 # to check whether non empty value encounters
-        print(head.data)             # if true it print the value
-        printLinkedList(head.next)   # pass the next value
+        print(head.data)             
+        printLinkedList(head.next)  
     
 
 if __name__ == '__main__':
