@@ -4,12 +4,10 @@ s=""
 
 q=int(input())
 
-#Iteration using q
 for i in range(q):
     inp=input()
     t=inp[0]
     w=inp[2:len(inp)]
-    #To append characters
     if t=="1":
         lst.append(s)
         s=s+w
