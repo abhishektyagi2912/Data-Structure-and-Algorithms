@@ -50,11 +50,3 @@ def printShortestPath(n, i_start, j_start, i_end, j_end):
     
     print('Impossible')
     
-    '''
-Sample Input:
-6
-5 1 0 5
-------------
-Sample Output:
-Impossible
-'''
