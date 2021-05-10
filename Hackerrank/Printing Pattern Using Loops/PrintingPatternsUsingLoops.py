@@ -1,5 +1,3 @@
-# Algorithm: 
-#   This pattern is an ob
 
 
 n = int(input())
