@@ -1,8 +1,8 @@
 
 
-n, m = map(int, input().split())                # Taking number of nodes and edges
+n, m = map(int, input().split())                
 k = n + 1
-nodes = list(range(k))                            # Creating list of visible nodes
+nodes = list(range(k))                           
 outside = [True] * k
 dist = [200000] * k
 conn = [{} for _ in range(k)]
