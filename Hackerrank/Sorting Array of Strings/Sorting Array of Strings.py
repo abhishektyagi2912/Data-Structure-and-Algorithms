@@ -5,7 +5,6 @@ def sortLexo(my_list):
     for x in sorted_list:
         print(x)
 
-#Sorting by reversed lexicographic order
 def sortLexoreverse(my_list):
     sorted_list=sorted(my_list, key = lambda x : 255-ord(x))
     for x in sorted_list:
@@ -33,7 +32,6 @@ def compare(a, b):
     else:
         return (countDistinct(a) - countDistinct(b))
 
-#Sorting by length
 def sortLen(my_list):
     sorted_list)=my_list.sort(key=len)
     for x in sorted_list:
