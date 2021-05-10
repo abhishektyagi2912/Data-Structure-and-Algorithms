@@ -1,4 +1,3 @@
-#A list to store history of the string; Accessed when using undo command
 lst=[]
 
 #Empty string to store inputs later
