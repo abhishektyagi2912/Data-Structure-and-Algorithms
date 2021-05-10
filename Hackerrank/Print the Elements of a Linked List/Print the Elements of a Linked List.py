@@ -25,10 +25,6 @@ class SinglyLinkedList:
 
         self.tail = node
 
-
-#
-# For your reference:
-
 def printLinkedList(head):
     if head:                 
         print(head.data)             
