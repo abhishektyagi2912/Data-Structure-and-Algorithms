@@ -8,9 +8,7 @@ def redJohn(n):
             prime = False
         else:
             for k in range(3, 1 + round(j**0.5), 2):
-                # Prime number is only divisible by 1 & itself
                 if j % k == 0:
                     prime = False
-        # increment the result if Prime
         result += 1 if prime else 0
     return result
