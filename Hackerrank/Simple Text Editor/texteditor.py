@@ -3,7 +3,6 @@ lst=[]
 #Empty string to store inputs later
 s=""
 
-#Number of commands
 q=int(input())
 
 #Iteration using q
