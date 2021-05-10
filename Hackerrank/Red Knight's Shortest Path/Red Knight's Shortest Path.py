@@ -1,9 +1,6 @@
 def printShortestPath(n, i_start, j_start, i_end, j_end):
 
     
-    # UL, UR, R, LR, LL, L
-
-    # save
     visited = [[0 for _ in range(n)] for _ in range(n)]
     # BFS
     queue = [[i_start, j_start, 0, []]]
