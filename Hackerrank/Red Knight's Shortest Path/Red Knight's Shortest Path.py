@@ -2,7 +2,6 @@ def printShortestPath(n, i_start, j_start, i_end, j_end):
 
     
     # UL, UR, R, LR, LL, L
-    # possible = [[-2, -1, 'UL'], [-2, 1, 'UR'], [0, 2, 'R'], [2, 1, "LR"], [2, -1, 'LL'], [0, -2, 'L']]
 
     # save
     visited = [[0 for _ in range(n)] for _ in range(n)]
@@ -43,7 +42,6 @@ def printShortestPath(n, i_start, j_start, i_end, j_end):
             if current[0]+move_i <n and current[0]+move_i >=0 and
             current[1]+move_j <n and current[1]+move_j >=0 and
             visited[current[0]+move_i][current[1]+move_j]==0]
-            #print(moves)
             queue.extend(moves)
         else:
                 pass
