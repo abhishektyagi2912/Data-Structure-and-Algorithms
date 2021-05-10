@@ -6,8 +6,6 @@
 #       3 2 2 2 3
 #       3 3 3 3 3
 #   The no. of columns and rows are equal to (2 * n - 1).
-#   The first (n - 1) and last (n - 1) rows can easily be printed using nested for loops
-#   The middle row can be implemented using a single for loop
 
 
 n = int(input())
