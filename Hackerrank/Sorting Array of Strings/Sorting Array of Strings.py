@@ -1,4 +1,3 @@
-#Program to sort an array containing string elements in different orders 
 import functools
 
 #Sorting by lexicographic order
