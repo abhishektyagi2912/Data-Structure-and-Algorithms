@@ -1,5 +1,3 @@
-
-# Python program for recursive digit sum
 import math
 import os
 import random
