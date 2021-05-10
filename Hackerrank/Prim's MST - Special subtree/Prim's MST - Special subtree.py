@@ -1,5 +1,3 @@
-
-
 n, m = map(int, input().split())                
 k = n + 1
 nodes = list(range(k))                           
