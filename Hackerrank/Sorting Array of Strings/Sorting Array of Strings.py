@@ -21,8 +21,7 @@ def countDistinct(s):
  
 def compare(a, b):
     if (countDistinct(a) == countDistinct(b)):
-        # Check if size of string 1
-        # is same as string 2 then
+        
         return (len(b) - len(a))
 
     else:
