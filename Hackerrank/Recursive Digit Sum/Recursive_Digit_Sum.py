@@ -4,9 +4,7 @@ import random
 import re
 import sys
 
-# Complete the superDigit function below.
 def superDigit(n, k):
-    #return answer
     return 1 + (k * sum(int(x) for x in n) - 1) % 9
 
 
