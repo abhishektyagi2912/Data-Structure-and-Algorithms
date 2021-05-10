@@ -4,16 +4,15 @@ import random
 import re
 import sys
 
-# Complete the plusMinus function below.
 def plusMinus(arr):
     l=len(arr)
-    cn=0  #counter used to count negative numbers
-    cp=0  #counter used to count positive numbers
-    cz=0  #counter used to count zeroes
+    cn=0  
+    cp=0  
+    cz=0 
     for i in arr:
-        if i<0:    # check for negative numbers
+        if i<0:    
             cn+=1
-        elif i>0:    # check for positive numbers
+        elif i>0:   
             cp+=1
         else:
             cz+=1
