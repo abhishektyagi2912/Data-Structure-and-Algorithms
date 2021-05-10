@@ -20,7 +20,7 @@ def plusMinus(arr):
     p=cp/l
     n=cn/l
     z=cz/l
-    print(format(p,".6f"))  #format() is used to print value upto 6 decimal places
+    print(format(p,".6f"))  
     print(format(n,".6f"))  
     print(format(z,".6f"))
             
