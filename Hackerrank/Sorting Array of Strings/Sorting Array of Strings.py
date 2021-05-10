@@ -13,14 +13,12 @@ def sortLexoreverse(my_list):
 def countDistinct(s):
     m = {}
     for i in range(len(s)):
-        # Count distinct characters
         if s[i] not in m:
             m[s[i]] = 1
         else:
             m[s[i]] += 1
     return len(m)
  
-#Calculating and sorting by number of distinct characters
 def compare(a, b):
     if (countDistinct(a) == countDistinct(b)):
         # Check if size of string 1
