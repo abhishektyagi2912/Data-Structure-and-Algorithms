@@ -32,10 +32,9 @@ class SinglyLinkedList:
 # SinglyLinkedListNode:
 #     int data
 #     SinglyLinkedListNode next
-#
-#
+
 def printLinkedList(head):
-    if head:                 # to check whether non empty value encounters
+    if head:                 
         print(head.data)             
         printLinkedList(head.next)  
     
