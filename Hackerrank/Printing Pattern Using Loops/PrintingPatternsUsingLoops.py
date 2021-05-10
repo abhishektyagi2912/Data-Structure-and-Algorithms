@@ -10,10 +10,8 @@
 #   The middle row can be implemented using a single for loop
 
 
-# Input
 n = int(input())
 
-# To print the first (n - 1) rows
 for i in range(1 , n):
     temp = n
     for j in range(1 , n):
