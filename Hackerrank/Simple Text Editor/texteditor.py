@@ -6,9 +6,7 @@ q=int(input())
 
 #Iteration using q
 for i in range(q):
-    #Command type {1,2,3,4}+argument
     inp=input()
-    #Seperates command and argument
     t=inp[0]
     w=inp[2:len(inp)]
     #To append characters
