@@ -1,7 +1,5 @@
 # Algorithm: 
-#   This pattern is an observational one. For eg, if n = 3
-#       3 3 3 3 3
-#       3 2 2 2 3
+#   This pattern is an ob
 
 
 n = int(input())
