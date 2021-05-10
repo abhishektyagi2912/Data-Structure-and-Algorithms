@@ -1,6 +1,5 @@
 import functools
 
-#Sorting by lexicographic order
 def sortLexo(my_list):
     sorted_list = sorted(a_list, key = lambda s : s.lower())
     for x in sorted_list:
