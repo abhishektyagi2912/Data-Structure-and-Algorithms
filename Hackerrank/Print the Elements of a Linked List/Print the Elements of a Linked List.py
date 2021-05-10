@@ -28,8 +28,6 @@ class SinglyLinkedList:
 
 #
 # For your reference:
-#
-# SinglyLinkedListNode:
 
 def printLinkedList(head):
     if head:                 
