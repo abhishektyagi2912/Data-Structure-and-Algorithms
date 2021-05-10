@@ -11,14 +11,11 @@ for i in range(q):
     if t=="1":
         lst.append(s)
         s=s+w
-    #To delete last n characters
     elif t=="2":
         lst.append(s)
         s=s[:-int(w)]
-    #To print the nth character
     elif t=="3":
         print(s[int(w)-1])
-    #To undo
     elif t=="4":
         s=lst.pop()
     else:
