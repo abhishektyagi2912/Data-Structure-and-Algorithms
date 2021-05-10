@@ -34,13 +34,11 @@ for i in range(1 , n):
 
 print("1" , end = " ")
 
-# To print the last half of the middle row
 for i in range(1 , n):
     temp += 1
     print(temp , end = " ")
 print("")
 
-# To print the last (n - 1) rows
 m = 1
 for i in range(n - 1 , 0 , -1):
     temp = n
