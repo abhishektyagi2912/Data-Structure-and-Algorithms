@@ -10,26 +10,23 @@ def printShortestPath(n, i_start, j_start, i_end, j_end):
             current = [i_cur, j_cur]
             visited[i_cur][j_cur] = 1
 
-            # upper
             if i_end < i_cur:
                 if j_end == j_start:
                     possible = [[-2, -1, 'UL'],[-2, 1, 'UR']]
                 else:
                     possible = [[-2, 1,'UR'], [0, 2,'R'], [-2, -1,'UL'], [0, -2,'L']]
-            # lower
             elif i_end > i_cur:
                 if j_end == j_start:
                     possible = [[2, 1, "LR"], [2, -1, 'LL']]
                 else:
                     possible =  [[0, 2, 'R'],[2, 1, "LR"], [2, -1, 'LL'], [0,-2, 'L']]
-            # same
             else:
                 if j_end < j_start:
                     possible = [[0, -2, 'L']]
                 else:
                     possible = [[0, 2, 'R']]
 
-            # check if reached
+            # check if 
             if current[0] == i_end and current[1] == j_end:
                 print(step)
                 [print(each, end = ' ') for each in path]
