@@ -2,10 +2,6 @@
 #   This pattern is an observational one. For eg, if n = 3
 #       3 3 3 3 3
 #       3 2 2 2 3
-#       3 2 1 2 3
-#       3 2 2 2 3
-#       3 3 3 3 3
-#   The no. of columns and rows are equal to (2 * n - 1).
 
 
 n = int(input())
