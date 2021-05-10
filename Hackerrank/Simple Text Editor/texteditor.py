@@ -1,6 +1,5 @@
 lst=[]
 
-#Empty string to store inputs later
 s=""
 
 q=int(input())
