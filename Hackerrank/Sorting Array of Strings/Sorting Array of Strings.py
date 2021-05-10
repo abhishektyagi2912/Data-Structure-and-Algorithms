@@ -11,7 +11,6 @@ def sortLexoreverse(my_list):
         print(x)
         
 def countDistinct(s):
-    # Initialize dictionary
     m = {}
     for i in range(len(s)):
         # Count distinct characters
@@ -26,7 +25,6 @@ def compare(a, b):
     if (countDistinct(a) == countDistinct(b)):
         # Check if size of string 1
         # is same as string 2 then
-        # return false because should not be placed before s2
         return (len(b) - len(a))
 
     else:
